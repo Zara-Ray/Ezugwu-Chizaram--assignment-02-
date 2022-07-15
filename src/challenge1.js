@@ -1,12 +1,7 @@
-function sumOfNumbers(arrayOfNumbers){
-    let total=0;
-    for(let i in arrayOfNumbers) { 
-    }
-    return arrayOfNumbers.length;
-}
-
-var arrayOfNumbers = []; 
-console.log(sumOfNumbers(arrayOfNumbers))
-
+    let sumOfNumbers = arrayOfNumbers.reduce(function(a, b){
+        return a + b;
+    });
+    
+    console.log(sumOfNumbers);
 
 
